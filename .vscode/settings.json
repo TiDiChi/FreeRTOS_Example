@@ -8,5 +8,9 @@
     "idf.openOcdConfigs": "interface/ftdi/esp32_devkitj_v1.cfg,target/esp32.cfg",
     "idf.portWin": "COM13",
     "idf.pythonBinPathWin": "D:/.espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe",
-    "idf.toolsPathWin": "D:\\.espressif"
+    "idf.toolsPathWin": "D:\\.espressif",
+    "files.associations": {
+        "esp_system.h": "c",
+        "task.h": "c"
+    }
 }
